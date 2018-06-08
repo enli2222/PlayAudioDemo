@@ -14,10 +14,6 @@
 		8D20B9CA20BFCD8F00EE8B34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D20B9C820BFCD8F00EE8B34 /* LaunchScreen.storyboard */; };
 		8D20B9CD20BFCD8F00EE8B34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D20B9CC20BFCD8F00EE8B34 /* main.m */; };
 		8D20B9D520BFD02A00EE8B34 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D20B9D420BFD02A00EE8B34 /* AVFoundation.framework */; };
-		8D85817D20C671F8002D5464 /* testTTSfunctioncase111_Ex_16K16bit.pcm in Resources */ = {isa = PBXBuildFile; fileRef = 8D85817B20C671F7002D5464 /* testTTSfunctioncase111_Ex_16K16bit.pcm */; };
-		8D85817E20C671F8002D5464 /* testTTSfunctioncase111_16K16bit.pcm in Resources */ = {isa = PBXBuildFile; fileRef = 8D85817C20C671F8002D5464 /* testTTSfunctioncase111_16K16bit.pcm */; };
-		8D85818120C68C27002D5464 /* testTTSfunctioncase111_Ex_16K16bit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8D85817F20C68C27002D5464 /* testTTSfunctioncase111_Ex_16K16bit.wav */; };
-		8D85818220C68C27002D5464 /* testTTSfunctioncase111_16K16bit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8D85818020C68C27002D5464 /* testTTSfunctioncase111_16K16bit.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,10 +28,6 @@
 		8D20B9CB20BFCD8F00EE8B34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D20B9CC20BFCD8F00EE8B34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D20B9D420BFD02A00EE8B34 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		8D85817B20C671F7002D5464 /* testTTSfunctioncase111_Ex_16K16bit.pcm */ = {isa = PBXFileReference; lastKnownFileType = file; path = testTTSfunctioncase111_Ex_16K16bit.pcm; sourceTree = "<group>"; };
-		8D85817C20C671F8002D5464 /* testTTSfunctioncase111_16K16bit.pcm */ = {isa = PBXFileReference; lastKnownFileType = file; path = testTTSfunctioncase111_16K16bit.pcm; sourceTree = "<group>"; };
-		8D85817F20C68C27002D5464 /* testTTSfunctioncase111_Ex_16K16bit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = testTTSfunctioncase111_Ex_16K16bit.wav; sourceTree = "<group>"; };
-		8D85818020C68C27002D5464 /* testTTSfunctioncase111_16K16bit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = testTTSfunctioncase111_16K16bit.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,10 +62,6 @@
 		8D20B9BC20BFCD8D00EE8B34 /* PlayAudioDemo */ = {
 			isa = PBXGroup;
 			children = (
-				8D85818020C68C27002D5464 /* testTTSfunctioncase111_16K16bit.wav */,
-				8D85817F20C68C27002D5464 /* testTTSfunctioncase111_Ex_16K16bit.wav */,
-				8D85817C20C671F8002D5464 /* testTTSfunctioncase111_16K16bit.pcm */,
-				8D85817B20C671F7002D5464 /* testTTSfunctioncase111_Ex_16K16bit.pcm */,
 				8D20B9BD20BFCD8D00EE8B34 /* AppDelegate.h */,
 				8D20B9BE20BFCD8D00EE8B34 /* AppDelegate.m */,
 				8D20B9C020BFCD8D00EE8B34 /* ViewController.h */,
@@ -152,13 +140,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D85817E20C671F8002D5464 /* testTTSfunctioncase111_16K16bit.pcm in Resources */,
 				8D20B9CA20BFCD8F00EE8B34 /* LaunchScreen.storyboard in Resources */,
 				8D20B9C720BFCD8F00EE8B34 /* Assets.xcassets in Resources */,
-				8D85818220C68C27002D5464 /* testTTSfunctioncase111_16K16bit.wav in Resources */,
 				8D20B9C520BFCD8D00EE8B34 /* Main.storyboard in Resources */,
-				8D85817D20C671F8002D5464 /* testTTSfunctioncase111_Ex_16K16bit.pcm in Resources */,
-				8D85818120C68C27002D5464 /* testTTSfunctioncase111_Ex_16K16bit.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
